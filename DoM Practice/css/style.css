@@ -1,0 +1,55 @@
+/* .classname{
+    background: red;
+}
+ */
+*{
+    margin: 0;
+    padding : 0;
+}
+ .img{
+     background: url(../img/clock.jpg)no-repeat center/cover;
+     height: 100vh;
+     position: relative;
+  
+ }
+ .img::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+ .img h1 {
+    color: #FFF;
+    position: absolute;
+    left: 24%;
+    top: 40%;
+    font-size: 60px;
+    letter-spacing: .15em;
+    /* text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15); */
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.time{
+    color: #FFF;
+    position: absolute;
+    left: 17%;
+    bottom: 30%;
+    font-size: 56px;
+    letter-spacing: .15em;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.img .btn {
+    background: #fff;
+    position: absolute;
+    bottom: 14%;
+    left: 26%;
+    line-height: 5px;
+    font-size: 16px;
+    color: darkblue;
+    padding: 21px 42px;
+}
